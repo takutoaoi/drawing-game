@@ -1,0 +1,32 @@
+{
+  "name": "drawing-game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel ./src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/takutoaoi/drawing-game.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/takutoaoi/drawing-game/issues"
+  },
+  "homepage": "https://github.com/takutoaoi/drawing-game#readme",
+  "dependencies": {
+    "grommet": "^2.7.7",
+    "grommet-icons": "^4.3.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "styled-components": "^4.3.2"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.2",
+    "@types/react-dom": "^16.9.0",
+    "typescript": "^3.6.2"
+  }
+}
