@@ -1,10 +1,9 @@
-import * as React from 'react';
-import * as ReactDOM from 'react-dom';
-import {Grommet} from 'grommet';
+import * as ReactDOM from 'react-dom'
+import { Grommet } from 'grommet'
 
 ReactDOM.render(
-    <Grommet plain>
+  <Grommet plain>
 
-    </Grommet>,
-    document.getElementById('root')
-);
+  </Grommet>,
+  document.getElementById('root')
+)
