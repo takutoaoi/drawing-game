@@ -1,5 +1,5 @@
 import React from 'react'
-import styled, {keyframes} from 'styled-components'
+import styled, { keyframes } from 'styled-components'
 
 const Animation = keyframes`
 0%{
@@ -24,5 +24,5 @@ animation: ${Animation} 1s ease-in-out infinite;
 `
 
 export const Spinner = () => {
-    return (<Circle/>)
+  return (<Circle/>)
 }
