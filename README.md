@@ -1,8 +1,6 @@
 # drawing-game
 
-master:[![Build Status](https://travis-ci.org/takutoaoi/drawing-game.svg?branch=master)](https://travis-ci.org/takutoaoi/drawing-game)
-
-develop:[![Build Status](https://travis-ci.org/takutoaoi/drawing-game.svg?branch=develop)](https://travis-ci.org/takutoaoi/drawing-game)
+[![Build Status](https://travis-ci.org/takutoaoi/drawing-game.svg?branch=master)](https://travis-ci.org/takutoaoi/drawing-game) [![Coverage Status](https://coveralls.io/repos/github/takutoaoi/drawing-game/badge.svg?branch=master)](https://coveralls.io/github/takutoaoi/drawing-game?branch=master)
 
 *作成中*
 
