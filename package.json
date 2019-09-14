@@ -5,12 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
+    "test:coverage": "npm test -- --coverage",
     "start": "npx parcel ./src/index.html",
     "lint": "eslint src --ext .ts,.tsx --fix"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/takutoaoi/drawing-game.git"
+    "url": "git+https://takutoaoi.github.io/takutoaoi/drawing-game"
   },
   "author": "",
   "license": "ISC",
