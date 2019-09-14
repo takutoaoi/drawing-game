@@ -22,6 +22,7 @@ width: 30px;
 border-radius: 100%;
 animation: ${Animation} 1s ease-in-out infinite;
 `
+Circle.displayName = "Circle"
 
 export const Spinner = () => {
   return (<Circle/>)
