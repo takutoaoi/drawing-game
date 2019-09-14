@@ -7,7 +7,7 @@ export enum Pages {
     Matching
 }
 
-export enum MachingServerStatus{
+export enum MatchingServerStatus{
     Connecting,
     Waiting,
     Sccsess,

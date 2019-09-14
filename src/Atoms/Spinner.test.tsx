@@ -8,6 +8,6 @@ Enzyme.configure({ adapter: new Adapter() })
 
 describe('A spinner atom', () => {
   it('should have Circle component', () => {
-    expect(shallow(<Spinner/>).exists("Circle")).toBe(true)
+    expect(shallow(<Spinner/>).exists('Circle')).toBe(true)
   })
 })

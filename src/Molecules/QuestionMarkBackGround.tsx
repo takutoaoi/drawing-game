@@ -5,11 +5,12 @@ import styled, { keyframes } from 'styled-components'
 const OPACITY_MULTIPLIER = 0.3
 const SIZE_MULTIPLIER = 3
 const TIMING_OFFSET = 3
+export const QUESTION_MARK_COUNT = 50
 
 export const QuestionMarkBackGround = () => {
   return (
     <React.Fragment>
-      {[...new Array(50)].map((_, index) => {
+      {[...new Array(QUESTION_MARK_COUNT)].map((_, index) => {
         return (
           <QuestionMarkWrapper
             top={Math.random() * 100} // as vh
