@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
+    "test:watch": "jest --watch",
     "test:coverage": "npm test -- --coverage --coverageReporters=text-lcov",
     "start": "npx parcel ./src/index.html",
     "lint": "eslint src --ext .ts,.tsx --fix",
