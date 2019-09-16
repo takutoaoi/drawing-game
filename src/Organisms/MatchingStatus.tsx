@@ -11,19 +11,10 @@ export const statusText: { [key in MatchingServerStatus]?: string } = {
 }
 
 const statusTextComponentBuilder = (status: MatchingServerStatus) => {
-  switch (status) {
-    case MatchingServerStatus.Connecting:
-      return <Text className="statusText" color={'dark-3'}>{statusText[MatchingServerStatus.Connecting]}</Text>
-    case MatchingServerStatus.Sccsess:
-      return <Text className="statusText" color={'dark-3'}>{statusText[MatchingServerStatus.Sccsess]}</Text>
-    case MatchingServerStatus.Waiting:
-      return <Text className="statusText" color={'dark-3'}>{statusText[MatchingServerStatus.Waiting]}</Text>
-    case MatchingServerStatus.Error:
-      return <Text className="statusText" color={'status-error'}>{statusText[MatchingServerStatus.Error]}</Text>
-  }
+  return <Text className="statusText" color={'dark-3'}>{statusText[status]}</Text>
 }
 
-export const MatchingStatus = (props:{status: MatchingServerStatus}) => {
+export const MatchingStatus = (props: { status: MatchingServerStatus }) => {
   return (
     <Box justify={'center'} height={'100vh'} align={'center'}>
       <Spinner/>
